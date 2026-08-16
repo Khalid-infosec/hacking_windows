@@ -1,18 +1,18 @@
 # Controlled Lab: Windows Endpoint Attack Lifecycle & Mitigation
 
-## 🎯 Objective
+##  Objective
 To understand the fundamentals of network reconnaissance, payload generation using `Msfvenom`, listener configuration with `Msfconsole`, and post-exploitation on controlled Windows 10 target machine within a secure, isolated home lab environment.
 
 ---
 
-## 🛠️ Lab Environment & Topology
+##  Lab Environment & Topology
 * **Attacker Machine:** Kali Linux (`192.168.100.109`)
 * **Target Machine:** Windows 10 (`192.168.100.12`)
 * **Tools Used:** `Ping`, `Nmap`, `Msfvenom`, `Msfconsole`, `Apache2`
 
 ---
 
-## 📑 Step-by-Step Procedure
+##  Step-by-Step Procedure
 
 ### Step 1: Network Reconnaissance
 Verified network connectivity between the attacker machine and the Windows 10 target using ICMP echo requests (`ping`).
@@ -34,7 +34,7 @@ Interacted with the established Meterpreter session to demonstrate system visibi
 
 ---
 
-## 🛡️ Key Takeaways & Defense Recommendations
+##  Key Takeaways & Defense Recommendations
 * **Endpoint Protection:** Keep host-based firewalls and modern antivirus solutions active and updated.
 * **Software Restrictions:** Implement AppLocker or Software Restriction Policies (SRP) to prevent execution from untrusted or writable directories.
 
